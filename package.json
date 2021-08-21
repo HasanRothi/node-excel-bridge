@@ -1,0 +1,29 @@
+{
+  "name": "Node_Excel_Bridge",
+  "version": "1.0.0",
+  "description": "Connect Excel Sheet from Node App.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon run index.js"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "Excel",
+    "Google",
+    "Spreadsheet",
+    "RestApi"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "celebrate": "^15.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "google-spreadsheet": "^3.1.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
